@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">FagylaltPult</string>
+    <string name="regisztracio">Regisztracio</string>
+    <string name="login">Login</string>
+    <string name="login_with_google">Login with google</string>
+    <string name="login_as_guest">Login as guest</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="make_fagyi">Make Fagyi</string>
+    <string name="pult_kezel_se">Pult kezelése</string>
+    <string name="pult">Pult</string>
+    <string name="bertesz">Bertesz</string>
+    <string name="kivesz">Kivesz</string>
+    <string name="e_mail_c_m">E-mail cím</string>
+    <string name="jelsz">Jelszó</string>
+    <string name="jelsz_meger_s_t_se">Jelszó megerősítése</string>
+    <string name="regisztr_ci">Regisztráció</string>
+    <string name="m_gsem">Mégsem</string>
+    <string name="fagylalt_neve">Fagylalt neve</string>
+    <string name="hozz_val_k_gy_m_lcs_cukor_stb">Hozzávalók (gyümölcs, cukor, stb.)</string>
+    <string name="tejalap">Tejalapú</string>
+    <string name="vizalap">Vizalapú</string>
+    <string name="cukormentes">Cukormentes</string>
+    <string name="lakt_zmentes">Laktózmentes</string>
+    <string name="glut_nmentes">Gluténmentes</string>
+    <string name="gy_m_lcsfagylalt">Gyümölcsfagylalt</string>
+    <string name="imgres">imgRes</string>
+    <string name="fagylalt_felvitele">Fagylalt felvitele</string>
+    <string name="felt_lt">Feltölt</string>
+    <string name="todo">TODO</string>
+    <string name="nev">Nev</string>
+    <string name="sajnos_nincs_adat">Sajnos nincs adat</string>
+
+    <string-array name="fagylalt_names">
+        <item>Csokoládé</item>
+        <item>Vanília</item>
+        <item>VBM</item>
+        <item>Sós karamell</item>
+        <item>Dió</item>
+        <item>Cékla</item>
+        <item>Eperjó</item>
+        <item>Pisztácia</item>
+        <item>Sacher</item>
+        <item>Tiramisu</item>
+    </string-array>
+
+    <array name="fagylalt_images">
+        <item>Csokoládé</item>
+        <item>Vanília</item>
+        <item>VBM</item>
+        <item>Sós karamell</item>
+        <item>Dió</item>
+        <item>Cékla</item>
+        <item>Eperjó</item>
+        <item>Pisztácia</item>
+        <item>Sacher</item>
+        <item>Tiramisu</item>
+    </array>
+
+
+</resources>

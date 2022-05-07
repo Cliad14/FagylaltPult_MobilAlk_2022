@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "598515829890",
+    "project_id": "androidfagylalt",
+    "storage_bucket": "androidfagylalt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:598515829890:android:56bff5b5e07cfd4f7fb89b",
+        "android_client_info": {
+          "package_name": "com.example.fagylaltpult"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "598515829890-1srtiqaqii4ndqgt36l6ge6h2fhd8tbi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fagylaltpult",
+            "certificate_hash": "e1842c333beba4889bb277519c1d18d7694a5b77"
+          }
+        },
+        {
+          "client_id": "598515829890-4ogssk9dpj63g18fakfqprp295ifvaip.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVCbnEcEcLsmQ6mrchHHG9z-a5Xr2Ml9E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "598515829890-4ogssk9dpj63g18fakfqprp295ifvaip.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

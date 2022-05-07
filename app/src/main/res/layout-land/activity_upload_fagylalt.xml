@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UploadFagylaltActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fagylalt_felvitele"
+                android:textSize="34sp"
+                android:textAlignment="center"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+                <EditText
+                    android:id="@+id/editTextName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="36dp"
+                    android:layout_marginTop="32dp"
+                    android:ems="10"
+                    android:hint="@string/fagylalt_neve"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp" />
+                <EditText
+                android:id="@+id/editTextHozzavalok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="32dp"
+                android:ems="10"
+                android:hint="@string/hozz_val_k_gy_m_lcs_cukor_stb"
+                android:inputType="textPersonName"
+                android:minHeight="48dp" />
+
+                <EditText
+                    android:id="@+id/editTextImgRes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginStart="20dp"
+                    android:ems="10"
+                    android:hint="@string/imgres"
+                    android:inputType="number"
+                    android:minHeight="48dp" />
+        </LinearLayout>
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="395dp"
+                android:layout_height="55dp"
+                android:checkedButton="@id/TejradioButton"
+                android:orientation="horizontal"
+                android:layout_marginStart="150dp"
+                android:layout_marginTop="25dp">
+
+                <RadioButton
+                    android:id="@+id/TejradioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="85dp"
+                    android:text="@string/tejalap" />
+
+                <RadioButton
+                    android:id="@+id/VizradioButton"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:text="@string/vizalap" />
+
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/cukormMentesCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="52dp"
+                    android:layout_marginTop="28dp"
+                    android:text="@string/cukormentes" />
+
+                <CheckBox
+                    android:id="@+id/LaktozMentescheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginTop="28dp"
+                    android:text="@string/lakt_zmentes" />
+
+                <CheckBox
+                    android:id="@+id/glutenMentesCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="28dp"
+                    android:text="@string/glut_nmentes" />
+
+                <CheckBox
+                    android:id="@+id/gyumolcsCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginEnd="52dp"
+                    android:text="@string/gy_m_lcsfagylalt" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="220dp"
+                    android:layout_marginTop="25dp"
+                    android:onClick="upload"
+                    android:text="@string/felt_lt" />
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="50dp"
+                    android:layout_marginTop="25dp"
+                    android:onClick="cancel"
+                    android:text="@string/m_gsem"
+                    tools:ignore="OnClick" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

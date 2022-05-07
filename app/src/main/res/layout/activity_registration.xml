@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/regisztracio"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginTop="50dp"
+        />
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/e_mail_c_m"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="80dp"
+        />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/jelsz"
+        android:inputType="textPassword"
+        android:layout_marginTop="40dp"
+        />
+
+    <EditText
+        android:id="@+id/passwordAgainEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/jelsz_meger_s_t_se"
+        android:inputType="textPassword"
+        android:layout_marginTop="40dp"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="registration"
+        android:text="@string/regisztr_ci"
+        android:layout_marginTop="80dp"
+        />
+
+    <Button
+        android:id="@+id/cancel_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="cancel"
+        android:text="@string/m_gsem"
+        android:layout_marginTop="30dp"
+        />
+</LinearLayout>
