@@ -1,1 +1,3 @@
-# FagylaltPult_MobilAlk_2022
+ADMIN USER:
+username: pultos@damniczki.admin
+password: Pultosok2022
